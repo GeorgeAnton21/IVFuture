@@ -1,0 +1,320 @@
+body, * {
+    font-family: Poppins, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container a {
+    color: #0032e9;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+section {
+    width: 100%;
+}
+
+.exercise-container {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid slategray;
+}
+
+.section-fig {
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+/* Ex1 */
+
+.containerBarca{
+    border:2px solid #000;
+}
+
+
+.containerBarca img{
+    display: block;
+    opacity: 0;
+    transform: translate(0, -100px);
+    transition: opacity 2s, transform 2s;
+}
+
+.containerBarca:hover img{
+    opacity: 1;
+    transform: translate(0,0);
+
+}
+
+
+
+/* Ex2 */
+.containerPadure{
+    position:relative;
+    width: 300px;
+    height: 200px;
+}
+
+.image {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+    transform: translate(0, 200px);
+  }
+  
+
+
+  .overlay:hover{
+    height: 200px;
+    transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+/* Ex3 */
+.cercMov{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #c1bbfe;
+    width: 150px;
+    height: 150px;
+    animation: cercMov 2.1s linear 2.1s infinite alternate ;
+    
+}  
+
+
+@keyframes cercMov{
+ from{}
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.cercVerde{
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 12px solid green;
+    left: 10px;
+    animation: cercVerde 2s linear 2s infinite alternate ;
+} 
+
+
+@keyframes cercVerde{
+    from{}
+       to{
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        border: 20px solid green;
+       }
+   }
+
+
+.cercGalben{
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 20px solid yellow;
+    right: 10px;
+    animation: cercGalben 2s linear 2s infinite alternate ;
+}
+
+@keyframes cercGalben{
+    from{}
+       to{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 12px solid yellow;
+       }
+   }
+
+
+/* Ex4 */
+
+.rotateCont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 200px;
+    animation: bigSquare 2.5s ease-out infinite ;
+   
+}
+
+.patratRosu{
+    
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation: redSquare 2.5s infinite  ease-out ;
+    
+   
+}
+
+.cercAlbastru{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: blueCircle 2.5s infinite ease-out ;
+   
+}
+
+  .patratMov{
+    
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    animation: purpleSquare 2.5s infinite ease-out ;
+
+}
+
+.cercRoz{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(192, 115, 128);
+    border-radius: 50%;
+    animation: pinkCircle 2.5s infinite ease-out;
+    
+}
+
+
+@keyframes bigSquare {
+    
+    0%,50%{transform:rotate(0deg);}
+    60%,100%{transform:rotate(90deg);}
+    
+}
+
+@keyframes pinkCircle {
+0%{
+    height: 0;
+    
+    margin-bottom: 0;
+}
+    50%{
+        height: 100px;
+       
+        margin-bottom: 0;
+    }
+    60%{
+        height: 100px;
+        
+        margin-bottom: 0;
+    }
+
+    100%{
+        margin-bottom: 100px;
+    }
+}
+@keyframes blueCircle {
+    0%{
+        height: 0;
+        
+        margin-top: 0;
+    }
+        50%{
+            height: 100px;
+            
+            margin-top: 0;
+        }
+        60%{
+            height: 100px;
+            
+            margin-top: 0;
+        }
+    
+        100%{
+            margin-top: 100px;
+        }
+    }
+@keyframes redSquare {
+   0%{
+    margin-top:100px;
+    height: 100px;
+   }
+   50%{
+    margin-top: 0;
+    height: 100px;
+   }
+   60%{
+    margin-top: 0;
+    height: 100px;
+   }
+
+   100%{
+    height:0;
+   }
+    
+    
+}
+@keyframes purpleSquare {
+    0%{
+     margin-bottom: 100px;
+        height: 100px;
+       }
+       50%{
+        margin-bottom: 0;
+        height: 100px;
+       }
+       60%{
+        margin-bottom: 0;
+        height: 100px;
+       }
+    
+       100%{
+        height:0;
+       }
+    }

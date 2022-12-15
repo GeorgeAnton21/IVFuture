@@ -1,0 +1,124 @@
+body  {
+    background-color: #88bdbf;
+}
+
+
+
+.maincont{
+    background-color: #f3f3f3;
+    height: 850px;
+    width:  100vh;
+    margin: 0 auto;
+    border: 3px solid #c39b8c;
+    padding: 30px 30px;
+}
+
+.heder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.email{
+    background-color: #ff7a5a;
+    height: 100px;
+    width: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.emailconf{
+    background-color: #ffffff;
+    height: 300px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.p{
+    padding: 15px 200px;
+}
+
+.imagine{
+    width: 40px;
+    height: 20vh;
+}
+
+.Verify{
+    color: #ffffff;
+    background-color: #ff7a5a;
+    height: 30px;
+    width:  24vh;
+    display: flex;
+    justify-content:center;
+   
+}
+
+.h{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} 
+
+
+.imaginile{
+    gap: 5px;
+    margin: 0;
+    padding: 0px 0px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagine1{
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    }
+
+    .imagine2{
+        width: 70px;
+        height: 70px;
+        }
+
+.mailimageg{
+
+    background-color:#ffc400 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 50px;
+height: 50px;
+}
+
+
+.imagine3{
+width: 38px;
+}
+
+.p2{
+    margin: 0;
+    margin-top: 130px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.p3{
+    margin: 0;
+    padding: 0px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}

@@ -1,0 +1,1337 @@
+/*LA pagina2 nu se aseaza coloanele cum trebuie*/
+/*La pagina3 nu se intorc sagetile, nu se aseaza cum trebuie pe coloane*/
+/*La pagina4 proglema cu asezatul scrisului si imaginii pe coloane*/
+
+
+:root{
+
+    --font1: 'Manrope';
+    --dark: #000;
+    --albastruInchis: #2F60A6;
+    --alb: #ffffff;
+    --gri: #2E2E2E;
+
+}
+
+.Pagina1{
+    background-image: url(/Bootstrap_tema_5/imagini/Rectangle\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navbar{
+    padding-top: 2rem;
+}
+    
+.navbar-nav .me-auto .mb-2 .mb-lg-0{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+    
+.buton1{
+        color: var(--alb);
+        background-color: var(--albastruInchis);
+        border: 1px solid var(--dark);
+        width: 96px;
+        height: 40px;
+        border-radius: 5px;
+}
+    
+.navbar-items{
+        width: 40px;
+        height: 20px;
+        font-family: var(--font1);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--dark);
+}
+    
+.input-group{
+        height: 70px;
+}
+
+.Container{
+    padding: 35px 117px 148px 122px;    
+    width: 100%;
+    height: 754px;
+    
+
+}
+
+.Container h1{
+    color: var(--dark);
+    width: 100%;
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 82px;
+}
+
+.Container p{
+    width: 100%;
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+
+.Container .input-group{
+    width: 50%;
+}
+
+
+.Pagina2{
+    background-color: var(--alb);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.ContentP2 h1{
+
+    width: 90%;
+    color: var(--dark);
+    font-family: var(--font1);
+    font-style: normal;
+    text-align: center;
+    margin-top: 117px;
+}
+
+.ContentP2 p{
+    width: 90%;
+    color: var(--dark);
+    font-family: var(--font1);
+    font-style: normal;
+    margin-top: 33px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.ContentM h1{
+    width: 100%;
+    color: var(--dark);
+    font-family: var(--font1);
+    font-style: normal;
+    text-align: center;
+}
+
+.ContentM p{
+    width: 90%;
+    margin-bottom: 100px;
+    color: var(--dark);
+    font-family: var(--font1);
+    font-style: normal;
+    text-align: center; 
+}
+.ContentM img{
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+.Pagina3{
+    width: 100%;
+    background: linear-gradient(180deg, #2F60A6 0%, #2C347C 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+.ContentP3 h1{
+    padding-top: 40px;
+    width: 100%;
+    color: var(--alb);
+    font-family: var(--font1);
+    font-style: normal;
+    text-align: center;
+}
+.ContentP3 p{
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 2%;
+    width: 90%;
+    color: var(--alb);
+    font-family: var(--font1);
+    font-style: normal;
+}
+
+.Pagina3 img{
+    width: 40px;
+    height: 30px;
+} 
+
+.Footerlist{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Footerlist p{
+    color: var(--alb);
+    font-family: var(--font1);
+    font-style: normal;
+}
+
+.Pagina4{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+
+.ContentS1 {
+    margin: 0;
+    padding: 0;
+    padding-left: 200px;
+}
+.ContentS1 h1{
+    margin-top: 160px;
+    width: 100%;
+    color: var(--gri);
+    font-family: var(--font1);
+    font-style: normal;
+    
+}
+
+.ContentS2 h1{
+    margin-top: 70px;
+    width: 100%;
+    color: var(--gri);
+    font-family: var(--font1);
+    font-style: normal;
+
+}
+
+.Section1 img{
+    width: 504px;
+    height: 480px;
+    margin-top: 160px;
+}
+.Section2 img{
+    width: 504px;
+    height: 480px;
+    margin-left: 200px;
+    margin-bottom: 160px;
+}
+
+
+.ContentS1 p{
+    width: 100%;
+    color: var(--gri);
+    font-family: var(--font1);
+    font-style: normal;
+    padding-right: 200px;
+}
+
+.ContentS2 p{
+    margin-left: -200px;
+    width: 100%;
+    color: var(--gri);
+    font-family: var(--font1);
+    font-style: normal;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.buton2{
+    margin-left: 200px;
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+    width: 20%;
+    color: var(--alb);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background: #2F60A6;
+    border-radius: 8px;
+}
+
+
+.Pagina5{
+    padding: 20px;
+    width: 100%;
+    background: linear-gradient(180deg, #2F60A6 0%, rgba(44, 52, 124, 0.0121536) 99.99%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.09));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+.TextP5 h1{
+    width: 100%;
+    color: var(--gri);
+    font-family: var(--font1);
+    font-style: normal;
+    font-feature-settings: 'salt' on, 'liga' off; 
+    text-align: center;
+    padding-top: 58px;
+}
+.TextP5 p{
+    width: 100%;
+    margin-top: 5px;
+    color: var(--gri);
+    font-family: var(--font1);
+    font-style: normal;
+    font-feature-settings: 'salt' on, 'liga' off;
+    text-align: center;
+}
+.diamondSection5 {
+    margin: 50px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.widthCardsSection5 {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardSection5 {
+    width: 100%;
+    max-width: 170px;
+}
+
+.cardSection5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 170px;
+    margin-bottom: 24px;
+}
+
+.cardSection5 img {
+    width: 90%;
+    height: auto;
+}
+
+
+
+
+.Pagina6{   
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.TextP6 h1{
+    width: 100%;
+    color: var(--gri);
+    font-family: var(--font1);
+    font-style: normal;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;  
+}
+
+.TextP6 p{
+    width: 100%;
+    color: var(--dark);
+    font-family: var(--font1);
+    font-style: normal;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.buton3{
+    margin: 0;
+        padding: 0;
+    color: var(--alb);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    padding: 0px 20px;
+    gap: 10px;
+    margin-left: 45%;
+    margin-top: 31px;
+    margin-bottom: 159px;
+    width: 59%;
+    display: flex;
+    width: 226px;
+    height: 70px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 42px;
+    background: #2F60A6;
+    border-radius: 8px;
+    
+}
+
+.PozaOm{
+    margin-top: 166px;
+   margin-left: 47%;
+    width: 10rem;
+}
+
+footer{
+    background-color: #2F60A6;
+    font-family: 'Inter' sans-serif;
+}
+
+.footerStyle{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 60px;
+}
+
+footer h6{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+footer .fadedColor{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E6E6E6;
+}
+
+
+
+
+
+@media only screen and (max-width: 1440px) {
+    /* For mobile laptop: */
+
+/*Pagin1*/
+    .ContentP1{
+width: 50%;
+    }
+    .Container h1{
+        font-size: 64px;
+        line-height: 82px;
+        margin-top: 135px;
+        margin-bottom: 20px;
+    }
+    .Container p{
+        font-size: 20px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .Container .input-group{
+        width: 80%;
+    }
+
+/*Pagin2*/
+    .ContentM{
+        padding: 100px 143px;
+    }
+    .ContentP2 h1{
+        padding: 0;
+        margin: 0;
+        margin-left: 100px;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 49.18px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .ContentP2 p{
+        margin-left: 100px;
+        padding: 15px 143px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 39.5px;
+        text-align: center;
+        letter-spacing: 0.2px;
+    }
+    .ContentM h1{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32.78px;
+    }
+    .ContentM p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        margin-left: 20px;
+
+    }
+    .ContentM img{
+        margin: 0;
+        padding: 0;
+    margin-top: 50px;
+    }
+
+/*Pagina3*/
+    .ContentP3 h1{
+        padding: 0;
+        margin: 0;
+        padding: 68px;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+    }
+    .ContentP3 p{
+        padding: 0;
+        margin: 0;
+        margin-top: -60px;
+        margin-left: 40px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+    }
+    .Footerlist p{
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 31px;
+        font-feature-settings: 'liga' off;
+
+    }
+    .Footerlist img{
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+    
+/*Pagina4*/
+
+.Section1{
+    padding: 0;
+    margin: 0;
+    margin-left: 120px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ContentS1 {
+    margin: 0;
+    padding: 0;
+}
+
+.Section1 img{
+    margin-left: 85px;
+    padding: 0;
+    margin: 0;
+    width: 504px;
+    height: 480px;
+}
+.ContentS1 h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+}
+.ContentS1 p{
+    padding: 0;
+    margin: 0;
+    margin-top: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+.ContentS1 .buton2{
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+    width: 20%;
+    color: var(--alb);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background: #2F60A6;
+    border-radius: 8px;
+}
+.Section2{
+    margin-left: 100px;
+    padding: 0;
+    margin: 0;
+}
+.ContentS2{
+    margin: 0;
+    padding: 0;
+}
+.Section2 img{
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 121px;
+    width: 504px;
+    height: 480px;
+    margin-bottom: 80px;
+}
+.ContentS2 h1{
+    margin-left: 200px;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    margin-right: 40px;
+}
+
+.ContentS2 p{
+    margin-left: 200px;
+    padding: 0;
+    margin: 0;
+    margin-top: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-right: 30px;
+    color: #808080;
+}
+.ContentS2 .buton2{
+    margin-left: 100px;
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+    width: 20%;
+    color: var(--alb);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background: #2F60A6;
+    border-radius: 8px;
+}
+
+/*Pagina5*/
+.TextP5 h1{
+    
+    padding: 0;
+    margin: 0;
+    margin-top: 59px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+.TextP5 p{
+    padding: 0;
+    margin: 0;
+    margin-top: 14px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #808080;
+}
+.diamondSection5 {
+    margin: 50px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.widthCardsSection5 {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardSection5 {
+    width: 100%;
+    max-width: 170px;
+}
+
+
+/*Pagina6*/
+.ContentPagina6{
+    margin: 0;
+    padding: 0;
+    padding: 160px 480px;
+}
+    .PozaOm{
+    margin: 0;
+    padding: 0;
+   margin-left: 140px; 
+}
+    .TextP6 h1{
+        margin: 0;
+        padding: 0;
+        font-weight: 800;
+        font-size: 48px;
+        margin-top: 37px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .TextP6 p{
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .buton3{
+        margin: 0;
+        padding: 0;
+        color: var(--alb);
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 20px;
+        padding: 0px 20px;
+        gap: 10px;
+        margin-left: 120px;
+        margin-top: 31px;
+        width: 59%;
+        display: flex;
+        width: 226px;
+        height: 70px;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        height: 42px;
+        background: #2F60A6;
+        border-radius: 8px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 992px) {
+    /* For mobile tableta: */
+
+/*Pagin1*/
+    .ContentP1{
+        width: 100%;
+    }
+    .Container h1 {
+        font-size: 56px;
+        line-height: 74px;
+        margin-bottom: 20px;
+        margin-top: 96px;
+    }
+    .Container p{
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .Container .input-group{
+        width: 60%;
+    }
+
+/*Pagin2*/
+    .ContentM{
+    padding: 0;
+    padding: 100px 130px;
+    }
+    .ContentP2 h1{
+        padding: 0;
+        margin: 0;
+        margin-left: 60px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+        margin-top: 60px;
+    } 
+    .ContentP2 p{
+        padding: 0;
+        margin: 0;
+        margin-left: 21px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+    .ContentM h1{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        margin: 0;
+
+
+    }
+    .ContentM p{
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.2px;
+    }
+    .ContentM img{
+        margin-top: 60;
+        margin: 0;
+        margin-left: 30%;
+    }
+
+/*Pagin3*/
+    .ContentP3 h1{
+        margin: 0;
+        padding: 0;
+        padding: 50px;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+    }
+    .ContentP3 p{
+        margin: 0;
+        padding: 0;
+        margin-top: -40px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        font-feature-settings: 'liga' off; 
+    }
+    .Footerlist p{
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        font-feature-settings: 'liga' off;
+    }
+    .Footerlist img{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+/*Pagina4*/
+.Section1{
+    padding: 0;
+    margin: 0;
+    margin-top: 70px;
+}
+.Section1 img{
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+    width: 350px;
+    height: 350px;
+}
+.ContentS1 h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+}
+.ContentS1 {
+    margin: 0;
+    padding: 0;
+}
+.ContentS1 p{
+    padding: 0;
+    margin: 0;
+    margin-top: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #2e2e2e;
+}
+.ContentS1 .buton2{
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+    width: 40%;
+    color: var(--alb);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background: #2F60A6;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.Section2{
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+}
+.Section2 img{
+    margin-top: 120px;
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    height: 350px;
+}
+.ContentS2{
+    margin: 0;
+    padding: 0;
+}
+.ContentS2 h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 60px;
+}
+.ContentS2 p{
+    padding: 0;
+    margin: 0;
+    margin-left: -30px;
+    margin-top: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #2e2e2e;
+}
+.ContentS2 .buton2{
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+    width: 40%;
+    color: var(--alb);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background: #2F60A6;
+    border-radius: 8px;
+}
+/*Pagina5*/
+.TextP5 h1{
+    
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+.TextP5 p{
+    padding: 0;
+    margin: 0;
+    margin-top: 14px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #808080;
+}
+.diamondSection5 {
+    margin: 50px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.widthCardsSection5 {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardSection5 {
+    width: 100%;
+    max-width: 170px;
+}
+/*Pagina6*/
+.ContentPagina6{
+    margin: 0;
+    padding: 0;
+    padding: 160px 250px;
+}
+    .PozaOm{
+    margin: 0;
+    padding: 0;
+   margin-left: 90px; 
+}
+    .TextP6 h1{
+        margin: 0;
+        padding: 0;
+        font-weight: 800;
+        font-size: 36px;
+        margin-top: 30px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .TextP6 p{
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        margin-top: 12px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .buton3{
+        color: var(--alb);
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 20px;
+        padding: 0px 20px;
+        gap: 10px;
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 59%;
+        display: flex;
+        width: 226px;
+        height: 70px;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        height: 42px;
+        background: #2F60A6;
+        border-radius: 8px;
+    }
+}  
+
+
+
+  @media only screen and (max-width: 768px) {
+        /* For mobile mobile: */
+
+/*Pagin1*/
+    .Container{
+        padding: 30px;
+        text-align: center;
+    }
+    .Container h1{
+        font-size: 42px;
+        line-height: 57.5px;
+        margin-top: 62px;
+        margin-bottom: 30px;
+    }
+    .Container p{
+        font-size: 12px;
+        line-height: 23px;
+        margin-bottom: 42px;
+    }
+    .Container .input-group{
+        width: 100%;
+    }
+
+
+/*Pagin2*/
+    .ContentM{
+    padding: 0;
+    padding: 40px 20px;
+    }
+    .ContentP2 h1{
+        padding: 0;
+        margin: 0;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+    .ContentP2 p{
+        padding: 0;
+        margin: 0;
+        margin-left: 21px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        margin-top: 15px;
+    }
+    .ContentM h1{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        margin-left: 13%;
+    
+    }
+    .ContentM p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        margin-left: 20px;
+    
+    }
+    .ContentM img{
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 200px;
+    }
+
+/*Pagin3*/
+    .ContentP3 h1{
+        padding: 0;
+        margin: 0;
+        margin-left: 5px;
+        padding: 50px;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 47px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+    }
+    .ContentP3 p{
+        padding: 0;
+        margin: 0;
+        margin-top: -40px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+    }
+    .Footerlist p{
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 31px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+    }
+    .Footerlist img{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+/*Pagina4*/
+    .Section1{
+        padding: 0;
+        margin: 0;
+        padding: 20px;
+    }
+    .Section1 img{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+        width: 335px;
+        height: 312px;
+    }
+    .ContentS1 h1{
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .ContentS1 {
+        margin: 0;
+        padding: 0;
+    }
+    .ContentS1 p{
+        padding: 0;
+        margin: 0;
+        margin-top: 44px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+        color: #808080;
+    }
+    .ContentS1 .buton2{
+        padding: 0;
+        margin: 0;
+        margin-top: 45px;
+        width: 100%;
+        color: var(--alb);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        gap: 10px;
+        background: #2F60A6;
+        border-radius: 8px;
+    }
+    .Section2{
+        padding: 0;
+        margin: 0;
+        padding: 20px;
+    }
+    .ContentS2{
+        margin: 0;
+        padding: 0;
+    }
+    .Section2 img{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+        width: 335px;
+        height: 312px;
+    }
+    .ContentS2 h1{
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .ContentS2 p{
+        padding: 0;
+        margin: 0;
+        margin-top: 44px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+        color: #808080;
+    }
+    .ContentS2 .buton2{
+        padding: 0;
+        margin: 0;
+        margin-top: 45px;
+        width: 100%;
+        color: var(--alb);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        gap: 10px;
+        background: #2F60A6;
+        border-radius: 8px;
+    }
+
+/*Pagina5*/
+.TextP5 h1{
+    
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+.TextP5 p{
+    padding: 0;
+    margin: 0;
+    margin-top: 14px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #808080;
+}
+.diamondSection5 {
+    width: max-content;
+    flex-direction: column;
+}
+
+.widthCardsSection5 {
+    width: 170px;
+}
+
+
+/*Pagina6*/
+    .ContentPagina6{
+        margin: 0;
+        padding: 0;
+    padding: 90px 20px;
+}
+    .PozaOm{
+    margin: 0;
+    padding: 0;
+   margin-left: 100px; 
+}
+    .TextP6 h1{ 
+        margin: 0;
+        padding: 0;
+        font-weight: 800;
+        font-size: 36px;
+        margin-top: 30px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .TextP6 p{
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .buton3{
+        margin: 0;
+        padding: 0;
+        color: var(--alb);
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0px 20px;
+        gap: 10px;
+        margin-left: 70px;
+        margin-top: 20px;
+        width: 59%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        height: 42px;
+        background: #2F60A6;
+        border-radius: 8px;
+    }
+  }
+
+
+  @media only screen and (min-width: 1440px){
+    .Section1 .row{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+  }
+
+
