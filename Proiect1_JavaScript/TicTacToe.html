@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TicTacToe</title>
+        <link rel='stylesheet' href='style.css'>
+        <script src='script.js'></script>
+</head>
+<body>
+<main class='background'>
+        <!-- PRIMA PAGINA CHOOSE GAMEMODE  -->
+    <div class='container' id="page1">
+        <div class="empty"></div>
+        <div class="page page__start">
+            <div class="start-page__game-name">
+                <h1 class='page__title'>TicTacToe</h1>
+                <p class='chooseg'>CHOOSE GAME MODE</p>
+            </div>
+            <div class='start-page__buttons'>
+                <a href="#page3"><button onclick="disableBoard()" class='button__start'>Single Player</button> </a>   
+                <a href="#page2"><button onclick="disableBoard()" class='button__start'>Multiplayer</button></a> 
+            </div>
+
+        </div>
+    </div>
+    <!-- A DOUA PAGINA MULTIPLAYER -->
+    <div class='container' id="page2">
+        <div class="empty"></div>
+        <div class="page page__background">
+            <div  class="option">
+                <h1 class='page__title'>Multiplayer</h1>
+                <div class='game'>
+                    <p class="instructions">CHOOSE YOUR NICKNAMES TO START THE GAME</p>
+                    <p class="instructions">PLAYER 1 IS FIRST</p>
+                      <p>  <b><input id="player1" class='player-input' placeholder='Player 1'/></b><br>
+                        <p class="instructions">VS</p><input id="player2" onclick="enableBoard()" class='player-input' placeholder='Player 2' />
+                    </p>
+                </div>
+                <br><br>
+        <!-- AM CREAT ELEMENTE DE TIP INPUT READONLY PENTRU CARE CHEMAM FUNCTII LA EVENIMENT  DE TIP 'CLICK' : SING_CHECK VERIFICA DACA CASUTA A FOST COMPLETATA; WINNER() VERIFICA DACA S-A CASTIGAT JOCUL.-->
+
+                <input type="text" id="b1" onclick=
+                        "sign_check_3(); winner('single');" readonly>
+
+                <input type="text" id="b2" onclick=
+                        "sign_check_4(); winner('single');" readonly>
+
+                <input type="text" id="b3" onclick=
+                        "sign_check_5(); winner('single');" readonly>
+                <br><br>
+
+                <input type="text" id="b4" onclick=
+                        "sign_check_6(); winner('single');" readonly>
+
+                <input type="text" id="b5" onclick=
+                        "sign_check_7(); winner('single');" readonly>
+
+                <input type="text" id="b6" onclick=
+                        "sign_check_8(); winner('single');" readonly>
+                <br><br>
+
+                <input type="text" id="b7" onclick=
+                        "sign_check_9(); winner('single');" readonly>
+
+                <input type="text" id="b8" onclick=
+                        "sign_check_10();winner('single');" readonly>
+
+                <input type="text" id="b9" onclick=
+                        "sign_check_11();winner('single');" readonly>
+
+
+                <br><br><br>
+                <button id="but" onclick="reset();" class="button__reset">
+                    RESET
+                </button>
+                <br><br>
+                <p id="print" class="instructions"></p>
+                <button class='button__back' onclick="reset();"><a href="#page1" >Go back</a></button>
+            </div>
+
+        </div>
+    </div>
+      <!-- PAGINA DE SINGLEPLAYER-->
+    <div class='container' id="page3">
+        <div class="empty"></div>
+        <div class="page page__background">
+            <div  class="option">
+                <h1 class='page__title3'>Singleplayer</h1>
+                <div class='game'>
+                    <p class="instructions">CHOOSE "X" OR "O"</p>
+                    <div class="selectXO">
+                    <button  id="btnX"  onclick="chooseX()" >X</button><button id = 'btn0' onclick="choose0()" >O</button>
+                </div>
+                    <p class="instructions2">"X" STARTS FIRST</p>
+                    
+
+                </div>
+                <br><br>
+                <!-- LA EVENIMENT DE TIP CLICK APELAM FUNCTIA CLICKERAI CU ID-UL CASUTEI PREDEFINITE-->
+                
+                <div class="boxes">
+                        <input type="text" id="c1" onclick=
+                                "clickerAI('c1')" readonly>
+                        <input type="text" id="c2" onclick=
+                                "clickerAI('c2')" readonly>
+                        <input type="text" id="c3" onclick=
+                                "clickerAI('c3')" readonly>
+                        <br><br>
+                        <input type="text" id="c4" onclick=
+                                "clickerAI('c4')" readonly>
+                        <input type="text" id="c5" onclick=
+                                "clickerAI('c5')" readonly>
+                        <input type="text" id="c6" onclick=
+                                "clickerAI('c6')" readonly>
+                        <br><br>
+                        <input type="text" id="c7" onclick=
+                                "clickerAI('c7')" readonly>
+                        <input type="text" id="c8" onclick=
+                                "clickerAI('c8')" readonly>
+                        <input type="text" id="c9" onclick=
+                                "clickerAI('c9')" readonly>
+                        <br><br><br>
+                </div>
+                <button id="but_singleplayer" onclick="reset()" class="button__reset">RESET</button>
+                <br><br>
+                <button class='button__back' onclick="reset();"><a href="#page1" >Go back</a></button>
+                <p id="print_singleplayer" class="instructions"></p>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
