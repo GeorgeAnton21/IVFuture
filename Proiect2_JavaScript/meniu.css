@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-image: url(./img/meniuwp.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+  font-weight: 600;
+  line-height: 50px;
+  margin-top: 300px;
+  margin-bottom: 50px;
+  color:#6A1D1D;
+  text-align: center;
+}
+
+
+.link{
+  color: #2F4858;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+
+
+.butoane{
+  display: flex;
+  gap: 200px;
+}
+
+.singleBtn{
+  color: transparent;
+  background: url(./img/jupiter-webb-telescope-02-ht-iwb-220822_1661177914746_hpEmbed_17x16_992-removebg-preview.png);
+  background-size: cover;
+  border: none;
+  width: 200px;
+  height: 200px;
+  text-decoration: none;
+}
+
+.multiBtn{
+  color: transparent;
+  background: url(./img/planeta1-removebg-preview.png);
+  background-size: cover;
+  border: none;
+  width: 200px;
+  height: 200px;
+  text-decoration: none;
+}
+
+

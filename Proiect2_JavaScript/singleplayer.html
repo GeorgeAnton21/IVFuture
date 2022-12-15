@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Singleplayer</title>
+        <link rel="stylesheet", href="./singleplayer.css">
+    </head>
+    <body>
+        <div class="midContainer">
+        <div class="Memory">
+            <h2>Singleplayer<span id="memoryID"></span></h2>
+            <p class="Mision">Ajuta-l pe Maestrul Anakin sa treaca de obstacolele aparute in calea lui <br>
+                 si sa-si recuperze sabia laser.</p>
+            <button class="selecttable" onclick="addHide();" id="multiplayer2" >4x3</a></button>
+            <button class="selecttable" onclick="showCards();">4x4</button>
+        </div>
+        <div class="frame169"> <!--Player 1 scoreboard-->
+            <img class="balloon" src="./img/singleplayer.png">
+            <div class="Player1" data-id="P1">
+                <h2>Score:   <span id="score1"></span></h2>
+            </div>
+        </div>
+        <!--Grid with cards--> 
+        <!-- ff = front face, bb = backface-->
+        <section class="board">
+            <div class="card" data-id="1a">
+                <img class="ff" src="./img/boba1.webp"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="1a">
+                <img class="ff" src="./img/boba1.webp"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="2a">
+                <img class="ff" src="./img/maul3.webp"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="2a">
+                <img class="ff" src="./img/maul3.webp"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="1b">
+                <img class="ff" src="./img/yoda4.webp"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="1b">
+                <img class="ff" src="./img/yoda4.webp"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="2b">
+                <img class="ff" src="./img/poza3.jpg"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="2b">
+                <img class="ff" src="./img/poza3.jpg"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="3c">
+                <img class="ff" src="./img/poza5.jpg"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="3c">
+                <img class="ff" src="./img/poza5.jpg"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="4c">
+                <img class="ff" src="./img/poza6.jpg"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="4c">
+                <img class="ff" src="./img/poza6.jpg"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="5d">
+                <img class="ff" src="./img/poza7.jpg"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="5d">
+                <img class="ff" src="./img/poza7.jpg"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="6e">
+                <img class="ff" src="./img/poza8.webp"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+            <div class="card" data-id="6e">
+                <img class="ff" src="./img/poza8.webp"/>
+                <img class="bb" src="./img/pozabackcard.webp"/>
+            </div>
+        </section>
+        <button class="restartbutton" onClick="window.location.reload();">
+            Restart Game
+        </button>
+        <a href="./Meniu.html"><button class="exitbutton">Back to Meniu</button></a>
+    </div>
+        <script src="./game.js"></script>
+    </body>
+</html>
